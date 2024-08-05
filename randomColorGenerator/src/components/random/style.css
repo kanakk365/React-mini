@@ -1,0 +1,21 @@
+.con{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.clicks{
+    display: flex;
+    gap: 10px;
+}
+button{
+    border: 0;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #eeee;
+    cursor: pointer;
+}

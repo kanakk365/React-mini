@@ -1,0 +1,9 @@
+.active{
+   color: aqua;
+}
+.inactive{
+    color: black;
+}
+.star-rating{
+    font-size: 5rem;
+}

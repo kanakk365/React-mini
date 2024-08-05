@@ -1,0 +1,26 @@
+h1{
+    font-family: 'Poppins';
+    text-align: center;
+
+}
+.cont{
+    display: flex;
+    
+}
+input{
+    font-size: 20px;
+    width: 15em;
+    border: 0;
+    background-color: #eeeeee;
+}
+button{
+    font-size: 20px;
+    background-color: #00ADB5;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+.qr{
+    margin-top: 20px;
+}
