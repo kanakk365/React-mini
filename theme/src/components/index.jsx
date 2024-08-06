@@ -1,5 +1,6 @@
 import React from "react";
 import useLocalStorage from "./useLocalStorage";
+import "./style.css"
 
 function LightDarkMode() {
   const [theme, setTheme] = useLocalStorage("theme", "dark");
@@ -9,7 +10,7 @@ function LightDarkMode() {
   }
   console.log(theme);
   return (
-    <div className="light-dark-mode">
+    <div className="light-dark-mode" data-theme={theme}>
       <div className="container">
         <p>Hello</p>
         <button onClick={handleToogle}> Change Theme</button>
