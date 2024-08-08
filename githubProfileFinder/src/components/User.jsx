@@ -9,23 +9,23 @@ export default function User({user}){
 
 return( 
     <div className="user">
-        <div>
+        <div className="pic">
         <img src={avatar_url} alt="profile_pic" />
         </div>
-        <div>
+        <div className="name">
             <a href= {`https://github.com/${login}`} >{name || login}</a>
             <p> User Joined on { " " } { `${createdDate.getDate()} ${createdDate.toLocaleString("en-us" , { month: "short", })} ${createdDate.getFullYear()}` } </p>
         </div>
         <div className="profile-info">
-        <div>
+        <div className="ab">
           <p>Public Repos</p>
           <p>{public_repos}</p>
         </div>
-        <div>
+        <div className="ab">
           <p>Followers</p>
           <p>{followers}</p>
         </div>
-        <div>
+        <div className="ab">
           <p>Following</p>
           <p>{following}</p>
         </div>
