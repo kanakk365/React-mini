@@ -1,0 +1,43 @@
+*{
+    outline: #2f3133 solid 0px;
+    font-family: "Poppins";
+}
+tic-container::after{
+    clear: both;
+    content: "";
+    display: table;
+   
+}
+.square{
+    border: 0;
+    float: left;
+    font-size: 40px;
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+    text-align: center;
+    margin-right: -1px;
+    margin-top: -1px;
+    cursor: pointer;
+    outline: #30353b solid 1px;
+    color: #30353b;
+    background-color: #EEEEEE;
+}
+.b{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.reset{
+    font-size: 1.3rem;
+    border: 0;
+    background-color: #00ADB5;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
