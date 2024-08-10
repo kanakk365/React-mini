@@ -1,6 +1,7 @@
 
 import './App.css'
 import UseFetch from './components/use-fetch'
+import UseOnclickTest from './components/Use-OnclickOutside/test'
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <>
-      <UseFetch url={`https://dummyjson.com/products?limit=10&select=title,price` } options={limti=100}/>
+      <UseOnclickTest/>
     </>
   )
 }
