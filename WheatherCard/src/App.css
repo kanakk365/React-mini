@@ -1,0 +1,27 @@
+.body{
+  margin: 0;
+  padding: 0;
+}
+.search-engin{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.input-bx{
+  width: 60rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+.search-btn{
+  height: 3rem;
+  width: 8rem;
+  border-radius: 10px;
+  font-size: 1.8rem;
+  background-color: #00ADB5 ;
+  color: white;
+  border: 0;
+}
