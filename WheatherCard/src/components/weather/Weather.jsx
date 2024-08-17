@@ -31,7 +31,14 @@ export default function Weather() {
   async function handleChange() {
     fetchData(search);
   }
-
+  function getCurrentDate() {
+    return new Date().toLocaleDateString("en-us", {
+      weekday: 'long',
+      month: 'long',
+      day: 'numeric',
+      year: 'numeric'
+    });
+  }
   return (
     <div className="container">
       <Search
@@ -39,6 +46,21 @@ export default function Weather() {
         setSearch={setSearch}
         handleChange={handleChange}
       />
+      {
+        loading ? <div> Loading...</div> :
+        <div>
+          <div className="city-name">
+            <h2> {weatherData?.name} , <span>{weatherData?.sys?.country}</span></h2>
+          </div>
+          <div className="date">
+            <span>{getCurrentDate()}</span>
+          </div>
+          
+        </div>
+      }
+      <div>
+        
+      </div>
     </div>
   );
 }
